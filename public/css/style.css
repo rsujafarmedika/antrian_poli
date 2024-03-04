@@ -1,0 +1,101 @@
+body{
+    background-color: #fff;
+}
+
+.header{
+    background-color: #effeef;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+}
+
+.header-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    background-color: #effeef;
+    min-height: 400px;
+}
+
+.content1{
+}
+
+.content2{
+    background-color: #b5ecb5;
+    min-height: 400px;
+}
+
+.content3{
+}
+
+.content31{
+    padding-top: 10px;
+    margin-right: 0;
+    margin-bottom: -10px;
+    border-width: 2px;
+    border-color: #830f0f;
+}
+
+.content311{
+}
+
+.content312{
+    background-color: #b5ecb5;
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+}
+
+.t_antrian{
+    background-color: #fff;
+}
+
+.c_antrian1{
+    background-color: #229258;
+    color: #fff;
+}
+
+.c_antrian2{
+    background-color: #fff;
+    color: red;
+    min-height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.c_antrian3{
+    background-color: #229258;
+    color: #fff;
+}
+
+.footer{
+    background-color: #effeef;
+    padding: 5px;
+    border-radius: 0 0 20px 20px;
+}
+
+#scrollableContainer {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+ul {
+    list-style-type: none; /* Menghapus jenis bullet bawaan */
+    padding: 0; /* Menghapus padding default */
+    margin: 0; /* Menghapus margin default */
+  }
+
+li {
+display: inline-block; /* Membuat elemen li sejajar */
+border-radius: 5px; /* Mengatur sudut elemen */
+}
+
+/* Halaman Admin */
+.truncate{
+    padding-top: 200px;
+}
